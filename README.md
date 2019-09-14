@@ -36,3 +36,8 @@ Output would be:
 ```bash
 yo ung
 ```
+
+## Warning
+
+The dependencies are heavily outdated.
+![10 security alerts](https://placeholder.example)
