@@ -1,0 +1,23 @@
+{
+  "name": "yeoman-puns",
+  "version": "1.0.0",
+  "description": "An array of yeoman puns",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jack5079/yeoman-puns.git"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Jack5079",
+    "url": "https://jack5079.github.io"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jack5079/yeoman-puns/issues"
+  },
+  "homepage": "https://github.com/Jack5079/yeoman-puns#readme"
+}
