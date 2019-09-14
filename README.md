@@ -40,4 +40,4 @@ yo ung
 ## Warning
 
 The dependencies are heavily outdated.
-![10 security alerts](https://placeholder.example)
+![10 security alerts](https://github.com/Jack5079/yeoman-puns/raw/master/alerts.png)
