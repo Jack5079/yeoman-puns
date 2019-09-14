@@ -1,1 +1,6 @@
-module.exports = require( 'an-array-of-english-words' ).filter( w => !!w.match( /^yo/i ) ).filter( async w => !await require( 'util' ).promisify( require( 'is-npm-module' ) )( 'generator-' + w.substring( 2 ) ) ).filter( e => !!e.substring( 2 ) ).map( w => `generator-${ w.substring( 2 ) }` )
+const taken = require( 'util' ).promisify( require( 'npm-taken' ) )
+module.exports = require( 'an-array-of-english-words' )
+  .filter( w => !!w.match( /^yo/i ) )
+  .filter( async w => ( await taken( 'generator-' + w.substring( 2 ) ) ) === false )
+  .filter( e => !!e.substring( 2 ) )
+  .map( w => `generator-${ w.substring( 2 ) }` )
