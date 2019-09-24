@@ -4,7 +4,8 @@
   "description": "An array of yeoman puns",
   "main": "index.js",
   "scripts": {
-    "test": "standard"
+    "test": "standard",
+    "build": "standard --fix"
   },
   "repository": {
     "type": "git",
